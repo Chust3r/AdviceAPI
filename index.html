@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="App.js" defer></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+   <section class="flex justify-center items-center h-screen bg-slate-50">
+       
+        <div class="mx-auto flex flex-col w-11/12 sm:w-1/2 lg:w-1/3 bg-white h-56  p-5 rounded shadow min-h-max">
+
+            <div class="flex flex-col flex-1 items-center">
+                <span class="text-2xl relative inline">
+                    <span class="block absolute -inset-1 -skew-y-3 bg-gradient-to-l from-cyan-500 to-violet-500"></span>
+                    <span class="relative text-white font-medium" id="advice-id"></span>
+                </span>
+                <span id="advice" class="text-xl mt-5"></span>
+            </div>
+
+            <button class='self-center text-2xl bg-slate-200 rounded-full flex justify-center items-center p-1 disabled:opacity-50 duration-300' id="btn">
+                <i class='bx bx-dice-6'></i>
+            </button>
+        </div>
+
+        
+
+   </section>
+</body>
+</html>
