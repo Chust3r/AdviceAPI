@@ -1,2 +1,2 @@
 # AdviceAPI
-#https://apiadvice.netlify.app
+https://apiadvice.netlify.app
